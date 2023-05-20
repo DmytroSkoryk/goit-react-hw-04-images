@@ -4,7 +4,7 @@ import Modal from '../Modal/Modal';
 import css from './ImageGalleryItem.module.css';
 
 const ImageGalleryItem = ({ image }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpe, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
   const openModal = image => {
